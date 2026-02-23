@@ -1,8 +1,4 @@
-Perfect — since you want a **README you can copy‑paste directly**, and I can see from your open tab that your repository is named **Bhumika-portfolio**, here is a clean, polished, professional README tailored exactly for your portfolio.
 
-You can paste this directly into your `README.md` file on GitHub.
-
----
 
 # 🌸 **Bhumika Khadka — Personal Portfolio**
 
