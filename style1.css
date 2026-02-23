@@ -1,34 +1,33 @@
-body {
+/* GLOBAL */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Poppins', sans-serif;
     background: #F7F7F7;
     color: #444;
 }
-/* NAVIGATION BAR */
-/* NAVIGATION BAR */
+
+/* NAVBAR */
 .navbar {
     width: 100%;
     padding: 10px 40px;
     background: #E8D9FF;
     display: flex;
-    justify-content:space-around; /* pushes logo left, links right */
+    justify-content: space-between;
     align-items: center;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1000;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
 .nav-logo {
     font-size: 1.8rem;
     font-weight: 700;
-    color: black; /* deep lilac */
-}
-.nav-logo:hover {
-    transform: scale(1.1);
-    transition: 0.3s ease;
+    color: black;
 }
 
 .nav-links {
@@ -41,16 +40,16 @@ body {
     text-decoration: none;
     color: black;
     font-weight: 500;
-    padding: 8px 8px;
+    padding: 8px 12px;
     border-radius: 20px;
     transition: 0.3s ease;
 }
 
 .nav-links a:hover {
     background: #A7D8FF;
-    color: #222;
 }
 
+/* PROJECTS SECTION */
 .projects-section {
     text-align: center;
     padding: 60px 20px;
@@ -58,34 +57,30 @@ body {
 
 .section-title {
     font-size: 2.5rem;
-    color: black;
+    font-weight: bold;
     margin-bottom: 5px;
-    font-weight: bolder;
 }
 
 .section-subtitle {
     font-size: 1rem;
     color: #666;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height:65%;
-    width:100%;
+    gap: 40px;
+    width: 100%;
     margin: 0 auto;
-    gap: 10%;
 }
-
 
 .project-card {
     background: #E8D9FF;
     border-radius: 18px;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease;
-
+    transition: 0.3s ease;
 }
 
 .project-card:hover {
@@ -93,13 +88,11 @@ body {
 }
 
 .project-day {
-    background:#E8D9FF;
-    color: black;
-    padding: 6px 5px;
+    background: #E8D9FF;
+    padding: 6px 10px;
     border-radius: 12px;
     font-size: 0.85rem;
-    display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .project-img {
@@ -108,15 +101,8 @@ body {
     margin-bottom: 15px;
 }
 
-.project-title {
-    font-size: 1.3rem;
-    color: #b85b8f;
-    margin-bottom: 5px;
-}
-
 .project-tech {
     font-size: 0.9rem;
-    color: black;
     margin-bottom: 10px;
 }
 
@@ -127,9 +113,43 @@ body {
     color: black;
     border-radius: 20px;
     text-decoration: none;
-    transition: background 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .project-btn:hover {
     background: #b85b8f;
+    color: white;
 }
+
+/* ----------------------------- */
+/* 📱 RESPONSIVE DESIGN */
+/* ----------------------------- */
+
+@media (max-width: 900px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
