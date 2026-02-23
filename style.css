@@ -218,7 +218,7 @@ footer {
     }
 
     .hero-text p {
-        text-align: center;
+        text-align: left;
         line-height: 1.5;
         padding: 0 10px;             /* prevents text touching edges */
     }
@@ -230,6 +230,7 @@ footer {
 }
 
   
+
 
 
 
