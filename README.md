@@ -9,7 +9,7 @@ This website showcases my journey as a Computer Science student, my projects, sk
 
 ## ✨ About Me
 
-I’m an international student from Nepal, currently studying **Computer Science** with a minor in **Information Systems** at East Central University.  
+I’m an international student from Nepal, currently studying Computer Science with a minor in Information Systems at East Central University.  
 I enjoy creating clean, pastel‑themed web designs and building beginner‑friendly Python projects that reflect my learning progress.
 
 This portfolio highlights:
@@ -51,7 +51,7 @@ Each project reflects my growth in programming and problem‑solving.
 ## 🎨 Design Philosophy
 
 My portfolio follows a **soft pastel, minimalist aesthetic** — clean layouts, gentle colors, and simple navigation.  
-I focus on clarity, accessibility, and a welcoming user experience.
+I focus on clarity, accessibility, and a user experience that is welcoming.
 
 ---
 
@@ -63,18 +63,15 @@ This site is deployed using **GitHub Pages**.
 
 ## 🌐 Live Website
 
-Once deployed, your link will look like:
 
-```
 https://bhumika2004-cloud.github.io/Bhumika-portfolio/
-```
 
 ---
 
 ## 📬 Contact
 
-- **Email:** (add yours)  
-- **LinkedIn:** (add yours)  
+- **Email:** khadkabhumika09@gmail.com  
+- **LinkedIn:** https://www.linkedin.com/in/bhumika-khadka/  
 - **GitHub:** bhumika2004-cloud  
 
 ---
