@@ -161,10 +161,8 @@ body {
     .section-title {
         font-size: 2rem;
     }
-    .featured-card {
-    border: 2px solid #6c5ce7; /* Highlights the card with a sleek purple border */
-    transform: scale(1.02);
-}
+   
+
 }
 
 
