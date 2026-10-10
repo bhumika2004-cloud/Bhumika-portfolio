@@ -27,6 +27,8 @@ Bhumika-portfolio/
 ├── style1.css       # Stylesheet for the projects page
 ├── resume.pdf       # My up-to-date professional resume
 └── assets/          # Images, logos, and project previews
+
+
 📬 Connect with Me
 Email: khadkabhumika09@gmail.com
 
