@@ -1,78 +1,43 @@
+# 🌟 Bhumika Khadka | Personal Portfolio
 
+Welcome to my personal portfolio website repository! This site showcases my background as a Computer Science undergraduate student at East Central University, along with my projects, technical skills, and coursework.
 
-# 🌸 **Bhumika Khadka — Personal Portfolio**
+## 🚀 Live Site
 
-Welcome to my personal portfolio!  
-This website showcases my journey as a Computer Science student, my projects, skills, and the work I’m building as I grow in tech.
-
----
-
-## ✨ About Me
-
-I’m an international student from Nepal, currently studying Computer Science with a minor in Information Systems at East Central University.  
-I enjoy creating clean, pastel‑themed web designs and building beginner‑friendly Python projects that reflect my learning progress.
-
-This portfolio highlights:
-
-- My real coding projects  
-- My design style  
-- My academic and technical skills  
-- My personal story and goals  
+Check out the live portfolio here: [bhumika2004-cloud.github.io/Bhumika-portfolio/](https://bhumika2004-cloud.github.io/Bhumika-portfolio/)
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-- **Languages:** Python, HTML, CSS  
-- **Tools:** Visual Studio Code, Jupyter Notebook, Canva  
-- **Cloud & Networking:** AWS, Network Fundamentals  
-- **Other Skills:** UX design, video editing, Microsoft Office  
-
----
-
-## 🎮 Projects Included
-
-### **Rock Paper Scissors Game**
-A simple Python game using loops and conditionals.
-
-### **Number Guessing Game**
-A fun project using random numbers and user interaction.
-
-### **Student Grade Calculator**
-Calculates final grades based on user‑entered scores.
-
-### **RPG Character Generator**
-Generates random character stats using Python logic.
-
-Each project reflects my growth in programming and problem‑solving.
+* **HTML5** & **CSS3** — Structure, custom styling, and layout design.
+* **JavaScript** — Interactive elements and dynamic navigation.
+* **Responsive Design** — Custom CSS media queries for seamless mobile, tablet, and desktop viewing.
 
 ---
 
-## 🎨 Design Philosophy
+## 📂 Project Structure
 
-My portfolio follows a **soft pastel, minimalist aesthetic** — clean layouts, gentle colors, and simple navigation.  
-I focus on clarity, accessibility, and a user experience that is welcoming.
+```text
+Bhumika-portfolio/
+│
+├── index.html       # Homepage (Hero section, skills breakdown, and contact links)
+├── projects.html    # Dedicated projects page featuring full-stack and Python projects
+├── style.css        # Main stylesheet for the portfolio homepage
+├── style1.css       # Stylesheet for the projects page
+├── resume.pdf       # My up-to-date professional resume
+└── assets/          # Images, logos, and project previews
+📬 Connect with Me
+Email: khadkabhumika09@gmail.com
 
----
-
-## 🚀 Deployment
-
-This site is deployed using **GitHub Pages**.
-
----
-
-## 🌐 Live Website
 
 
-https://bhumika2004-cloud.github.io/Bhumika-portfolio/
+LinkedIn: Bhumika Khadka
 
----
 
-## 📬 Contact
+GitHub: bhumika2004-cloud
 
-- **Email:** khadkabhumika09@gmail.com  
-- **LinkedIn:** https://www.linkedin.com/in/bhumika-khadka/  
-- **GitHub:** bhumika2004-cloud  
 
----
 
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
