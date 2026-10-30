@@ -11,142 +11,142 @@
     <nav class="navbar">
         <div class="nav-logo">Bhumika Khadka</div>
         <ul class="nav-links">
-            <li><a href="projects.html" target="_blank">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <!-- HERO SECTION -->
-    <section class="hero">
+    <section class="hero" id="about">
         <div class="hero-text">
             <h1>Hi, I'm <span>Bhumika Khadka</span></h1>
             <p>
-                I am a Computer Science undergraduate at East Central University (Minor in Information Systems, GPA: 3.63) recognized on the President's Honor Roll and Alpha Chi National Honor Society. 
-                I specialize in full-stack development, Python, SQL, and machine learning integration, building practical, user-focused software solutions.
+                Computer Science undergraduate at East Central University (Minor: Information Systems | GPA: 3.63). 
+                Recognized on the President's Honor Roll, Dean's List, and inducted into the Alpha Chi National Honor Society. 
+                Experienced in full-stack development, Python backend engineering, data analysis, and machine learning integration.
             </p>
             <a href="resume.pdf" class="btn" target="_blank">View my Resume</a>
         </div>
 
         <div class="hero-img">
-            <img src="bhumikap.jpg" alt="Picture of me">
+            <img src="bhumikap.jpg" alt="Bhumika Khadka">
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="experience" id="experience">
+        <h2>Experience</h2>
+
+        <div class="exp-item">
+            <h3>Market Research Analyst Intern / Data Content Specialist</h3>
+            <p class="exp-company">Global Opportunities Nepal | Kathmandu, Nepal | May 2023 – Dec 2023</p>
+            <ul>
+                <li>Collected and cleaned raw US university data using Python (pandas, NumPy), merging multi-year cohort datasets, filtering for STEM-designated programs, and standardizing variables.</li>
+                <li>Analyzed admission trends for international students and automated executive-ready summary reports using openpyxl and python-docx, highlighting top university recommendations supporting the placement of over 50 students.</li>
+                <li>Visualized findings using Matplotlib (bar graphs and scatter plots mapping tuition vs. post-graduation earnings).</li>
+                <li>Researched US study abroad trends and produced TikTok video content and ad templates, growing followers by over 2,000 and reaching over 1,000 views.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <h2>Featured Projects</h2>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Customer Churn Predictor</h3>
+                <p class="project-tech">React, Vite, FastAPI, Python, JavaScript, Git</p>
+                <ul>
+                    <li>Built a full-stack web app with a Python backend and React frontend predicting customer churn likelihood with fast-loading asynchronous requests.</li>
+                    <li>Trained a machine learning model on customer data and integrated it securely with backend validation rules and instant UI updates.</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h3>Bhumika's Travel Journal</h3>
+                <p class="project-tech">Python, FastAPI, SQLite, Leaflet.js, GeoJSON, Pillow, HTML/CSS, JavaScript</p>
+                <ul>
+                    <li>Developed an interactive travel map extracting location and timestamp metadata from uploaded photos to pin locations across US states.</li>
+                    <li>Utilized Leaflet.js to highlight visited states with colored overlays and clickable labels, supported by FastAPI/SQLite timeline search and filtering.</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h3>AI-Powered Grammar Assistant</h3>
+                <p class="project-tech">Python, OpenAI API, Prompt Engineering</p>
+                <ul>
+                    <li>Engineered a Python CLI application providing real-time grammar and syntax corrections in a continuous input loop using the OpenAI API.</li>
+                    <li>Configured system roles with negative constraints, delimiter wrapping, and a low temperature (0.2) to maintain strict output consistency.</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h3>HATCH & HUNT</h3>
+                <p class="project-tech">UI/UX Design, Interactive Web Build</p>
+                <ul>
+                    <li>Awarded **Best Beginner Build (Spring 2026)** in the Programiz March Challenge.</li>
+                    <li>Featured on the **Wall of Inspiration** for exceptional UI/UX design and originality.</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <!-- SKILLS SECTION -->
     <section class="skills" id="skills">
-        <h2>Skills</h2>
+        <h2>Skills & Coursework</h2>
 
-        <!-- LANGUAGES -->
         <div class="skill-section">
             <h3>Languages</h3>
             <div class="skill-grid">
-                <div class="skill-box">
-                    <img src="python.jpg" alt="">
-                    <p>Python</p>
-                </div>
-                <div class="skill-box">
-                    <img src="javascript.jpg" alt="">
-                    <p>JavaScript</p>
-                </div>
-                <div class="skill-box">
-                    <img src="sql.jpg" alt="">
-                    <p>SQL</p>
-                </div>
-                <div class="skill-box">
-                    <img src="html.jpg" alt="">
-                    <p>HTML/CSS</p>
-                </div>
-                <div class="skill-box">
-                    <img src="c.jpg" alt="">
-                    <p>C</p>
-                </div>
+                <div class="skill-box"><img src="python.jpg" alt=""><p>Python</p></div>
+                <div class="skill-box"><img src="javascript.jpg" alt=""><p>JavaScript</p></div>
+                <div class="skill-box"><img src="sql.jpg" alt=""><p>SQL</p></div>
+                <div class="skill-box"><img src="html.jpg" alt=""><p>HTML/CSS</p></div>
+                <div class="skill-box"><img src="c.jpg" alt=""><p>C</p></div>
             </div>
         </div>
 
-        <!-- TECHNOLOGIES & FRAMEWORKS -->
         <div class="skill-section">
             <h3>Technologies & Frameworks</h3>
             <div class="skill-grid">
-                <div class="skill-box">
-                    <img src="react.jpg" alt="">
-                    <p>React</p>
-                </div>
-                <div class="skill-box">
-                    <img src="fastapi.jpg" alt="">
-                    <p>FastAPI</p>
-                </div>
-                <div class="skill-box">
-                    <img src="vite.jpg" alt="">
-                    <p>Vite</p>
-                </div>
-                <div class="skill-box">
-                    <img src="leaflet.jpg" alt="">
-                    <p>Leaflet.js</p>
-                </div>
-                <div class="skill-box">
-                    <img src="sqlite.jpg" alt="">
-                    <p>SQLite</p>
-                </div>
-                <div class="skill-box">
-                    <img src="pillow.jpg" alt="">
-                    <p>Pillow</p>
-                </div>
+                <div class="skill-box"><img src="react.jpg" alt=""><p>React</p></div>
+                <div class="skill-box"><img src="fastapi.jpg" alt=""><p>FastAPI</p></div>
+                <div class="skill-box"><img src="vite.jpg" alt=""><p>Vite</p></div>
+                <div class="skill-box"><img src="leaflet.jpg" alt=""><p>Leaflet.js</p></div>
+                <div class="skill-box"><img src="sqlite.jpg" alt=""><p>SQLite</p></div>
+                <div class="skill-box"><img src="pillow.jpg" alt=""><p>Pillow</p></div>
             </div>
         </div>
 
-        <!-- AI / ML & DATA TOOLS -->
         <div class="skill-section">
             <h3>AI/ML & Data Tools</h3>
             <div class="skill-grid">
-                <div class="skill-box">
-                    <img src="openai.jpg" alt="">
-                    <p>OpenAI API</p>
-                </div>
-                <div class="skill-box">
-                    <img src="sklearn.jpg" alt="">
-                    <p>scikit-learn</p>
-                </div>
-                <div class="skill-box">
-                    <img src="pandas.jpg" alt="">
-                    <p>pandas / NumPy</p>
-                </div>
-                <div class="skill-box">
-                    <img src="matplotlib.jpg" alt="">
-                    <p>Matplotlib</p>
-                </div>
-                <div class="skill-box">
-                    <img src="tableau.jpg" alt="">
-                    <p>Tableau</p>
-                </div>
-                <div class="skill-box">
-                    <img src="excel.jpg" alt="">
-                    <p>Excel</p>
-                </div>
+                <div class="skill-box"><img src="sklearn.jpg" alt=""><p>scikit-learn / Random Forest</p></div>
+                <div class="skill-box"><img src="openai.jpg" alt=""><p>OpenAI API</p></div>
+                <div class="skill-box"><img src="pandas.jpg" alt=""><p>pandas / NumPy</p></div>
+                <div class="skill-box"><img src="matplotlib.jpg" alt=""><p>Matplotlib</p></div>
+                <div class="skill-box"><img src="tableau.jpg" alt=""><p>Tableau</p></div>
+                <div class="skill-box"><img src="excel.jpg" alt=""><p>Excel / openpyxl</p></div>
             </div>
         </div>
 
-        <!-- DEVELOPER TOOLS -->
         <div class="skill-section">
             <h3>Developer Tools</h3>
             <div class="skill-grid">
-                <div class="skill-box">
-                    <img src="git.jpg" alt="">
-                    <p>Git</p>
-                </div>
-                <div class="skill-box">
-                    <img src="github.jpg" alt="">
-                    <p>GitHub</p>
-                </div>
-                <div class="skill-box">
-                    <img src="vs.jpg" alt="">
-                    <p>VS Code</p>
-                </div>
-                <div class="skill-box">
-                    <img src="gcp.jpg" alt="">
-                    <p>Google Cloud Platform</p>
-                </div>
+                <div class="skill-box"><img src="git.jpg" alt=""><p>Git</p></div>
+                <div class="skill-box"><img src="github.jpg" alt=""><p>GitHub</p></div>
+                <div class="skill-box"><img src="vs.jpg" alt=""><p>VS Code</p></div>
+                <div class="skill-box"><img src="gcp.jpg" alt=""><p>Google Cloud Platform</p></div>
             </div>
+        </div>
+
+        <div class="coursework-box">
+            <h3>Relevant Coursework</h3>
+            <p>Data Structures, Database Design, Operating Systems, Cloud Fundamentals, Object-Oriented Programming, Computer Architecture, Web Development</p>
         </div>
     </section>
 
@@ -155,13 +155,13 @@
         <h2>Contact</h2>
         <div class="contact-icons">
             <a href="mailto:khadkabhumika09@gmail.com" target="_blank" class="contact-item">
-                <img src="email.jpg" alt="Email Logo">
+                <img src="email.jpg" alt="Email">
             </a>
-            <a href="https://www.linkedin.com/in/bhumika-khadka" target="_blank" class="contact-item">
-                <img src="linkedin.jpg" alt="LinkedIn Logo">
+            <a href="https://linkedin.com" target="_blank" class="contact-item">
+                <img src="linkedin.jpg" alt="LinkedIn">
             </a>
             <a href="https://github.com/bhumika2004-cloud" target="_blank" class="contact-item">
-                <img src="github.jpg" alt="GitHub Logo">
+                <img src="github.jpg" alt="GitHub">
             </a>
         </div>
     </section>
